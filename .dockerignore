@@ -1,0 +1,6 @@
+frontend-react/node_modules
+frontend-react/dist
+.git
+__pycache__
+*.pyc
+.venv

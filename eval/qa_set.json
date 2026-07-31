@@ -1,0 +1,162 @@
+[
+  {
+    "id": "qa1",
+    "patient_id": "10001725",
+    "query": "What is the chief complaint for this admission?",
+    "expected_keywords": ["retention of urine"],
+    "expected_section": "Chief Complaint",
+    "answerable": true
+  },
+  {
+    "id": "qa2",
+    "patient_id": "10001725",
+    "query": "Does the patient have a history of asthma?",
+    "expected_keywords": ["asthma"],
+    "expected_section": "Past Medical History",
+    "answerable": true
+  },
+  {
+    "id": "qa3",
+    "patient_id": "10001725",
+    "query": "What NSAID pain medication was given during this admission?",
+    "expected_keywords": ["ibuprofen", "ketorolac"],
+    "expected_section": "Medications on Admission",
+    "answerable": true
+  },
+  {
+    "id": "qa4",
+    "patient_id": "10001725",
+    "query": "Is the patient on chemotherapy?",
+    "expected_keywords": [],
+    "expected_section": null,
+    "answerable": false
+  },
+  {
+    "id": "qa5",
+    "patient_id": "10002495",
+    "query": "What is the chief complaint for this admission?",
+    "expected_keywords": ["nstemi", "myocardial infarction"],
+    "expected_section": "Chief Complaint",
+    "answerable": true
+  },
+  {
+    "id": "qa6",
+    "patient_id": "10002495",
+    "query": "What anticoagulant was the patient discharged on?",
+    "expected_keywords": ["warfarin"],
+    "expected_section": "Discharge Medications",
+    "answerable": true
+  },
+  {
+    "id": "qa7",
+    "patient_id": "10002495",
+    "query": "Did the patient have a Clostridium difficile infection?",
+    "expected_keywords": ["clostridium difficile", "enterocolitis"],
+    "expected_section": "Past Medical History",
+    "answerable": true
+  },
+  {
+    "id": "qa8",
+    "patient_id": "10002495",
+    "query": "Is the patient on dialysis?",
+    "expected_keywords": [],
+    "expected_section": null,
+    "answerable": false
+  },
+  {
+    "id": "qa9",
+    "patient_id": "10003046",
+    "query": "What is the chief complaint for this admission?",
+    "expected_keywords": ["esophagus", "neoplasm"],
+    "expected_section": "Chief Complaint",
+    "answerable": true
+  },
+  {
+    "id": "qa10",
+    "patient_id": "10003046",
+    "query": "Does the patient have Barrett's esophagus?",
+    "expected_keywords": ["barrett"],
+    "expected_section": "Past Medical History",
+    "answerable": true
+  },
+  {
+    "id": "qa11",
+    "patient_id": "10003046",
+    "query": "Where was the patient discharged to?",
+    "expected_keywords": ["home health care"],
+    "expected_section": "Assessment and Plan",
+    "answerable": true
+  },
+  {
+    "id": "qa12",
+    "patient_id": "10003046",
+    "query": "Does the patient have a pacemaker?",
+    "expected_keywords": [],
+    "expected_section": null,
+    "answerable": false
+  },
+  {
+    "id": "qa13",
+    "patient_id": "10004422",
+    "query": "What is the chief complaint for this admission?",
+    "expected_keywords": ["coronary atherosclerosis"],
+    "expected_section": "Chief Complaint",
+    "answerable": true
+  },
+  {
+    "id": "qa14",
+    "patient_id": "10004422",
+    "query": "What statin is the patient on?",
+    "expected_keywords": ["simvastatin"],
+    "expected_section": "Medications on Admission",
+    "answerable": true
+  },
+  {
+    "id": "qa15",
+    "patient_id": "10004422",
+    "query": "Does the patient have hyperlipidemia?",
+    "expected_keywords": ["hyperlipidemia"],
+    "expected_section": "Past Medical History",
+    "answerable": true
+  },
+  {
+    "id": "qa16",
+    "patient_id": "10004422",
+    "query": "Is the patient on insulin?",
+    "expected_keywords": [],
+    "expected_section": null,
+    "answerable": false
+  },
+  {
+    "id": "qa17",
+    "patient_id": "10004733",
+    "query": "What is the chief complaint for this admission?",
+    "expected_keywords": ["encephalopathy"],
+    "expected_section": "Chief Complaint",
+    "answerable": true
+  },
+  {
+    "id": "qa18",
+    "patient_id": "10004733",
+    "query": "Did the patient have ventilator associated pneumonia?",
+    "expected_keywords": ["ventilator associated pneumonia"],
+    "expected_section": "Past Medical History",
+    "answerable": true
+  },
+  {
+    "id": "qa19",
+    "patient_id": "10004733",
+    "query": "What sedative infusion was used during this admission?",
+    "expected_keywords": ["propofol", "fentanyl"],
+    "expected_section": "Medications on Admission",
+    "answerable": true
+  },
+  {
+    "id": "qa20",
+    "patient_id": "10004733",
+    "query": "Does the patient have a history of diabetes?",
+    "expected_keywords": [],
+    "expected_section": null,
+    "answerable": false
+  }
+]
